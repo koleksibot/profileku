@@ -36,7 +36,7 @@ const Buttons = styled.div`
 export default function Index({ recentPosts, recentProjects }) {
 	return (
 		<Layout>
-			<h1>Hey, I'm Daniel Munoz 👋</h1>
+			<h1>Hey, I'm Koleksibot 👋</h1>
 			<p>
 				I'm a software engineer and designer. Just graduated from The
 				University of Texas at Austin where I learned about Computer
@@ -47,8 +47,8 @@ export default function Index({ recentPosts, recentProjects }) {
 				Right now I'm looking for software engineering opportunities.
 			</p>
 			<Buttons>
-				<Button href={"/about"}>More about me</Button>
-				<Button href={"mailto:ataricoder@gmail.com"}>Email me</Button>
+				<Button href={"/about"}>More About Me</Button>
+				<Button href={"mailto:anonsecteaminc@gmail.com"}>Email me</Button>
 			</Buttons>
 			<hr></hr>
 			<h1>Blog</h1>
@@ -73,7 +73,7 @@ export default function Index({ recentPosts, recentProjects }) {
 					</ul>
 				))}
 			</ul>
-			<Button href={"/blog"}>Read more</Button>
+			<Button href={"/blog"}>Read More</Button>
 			<hr></hr>
 			<h1>Projects</h1>
 			<p>This is some of the things I have worked on in the past.</p>
