@@ -1,0 +1,58 @@
+.scrolled {
+	/* box-shadow: 0 2px 1px -1px #ffffff20 !important; */
+	position: fixed !important;
+	top: 0px !important;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	/* margin: 0px 18px; */
+	/* padding: 9px 0px !important; */
+}
+
+.navbar {
+	background-color: #00000090;
+	backdrop-filter: saturate(180%) blur(20px);
+	/* With spacer */
+	/* top: 47px; */
+	/* position: absolute; */
+	/* Without spacer */
+	top: 0px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	padding: 9px 18px;
+}
+
+.link {
+	font-size: 16px;
+	padding: 4px 10px !important;
+	border-radius: 6px;
+	color: #ffffff !important;
+	font-weight: 600;
+}
+
+.link_active {
+	background-color: #68fdfe20;
+	color: #68fdfe !important;
+}
+
+.toggle {
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+	padding: 0;
+}
+
+.toggle:hover {
+	background-color: transparent;
+}
+
+.toggle:active {
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.toggle_wrapper {
+	padding: 0;
+}
